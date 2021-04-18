@@ -9,9 +9,14 @@
 }
 
 .content-container > div img {
-    width: 98%;
+    display: block;
+    align-items: center;
+    width: 90%;
     border-radius: 20px;
-    border: 5px double;
+    padding: 2%;
+    border: 1px solid;
+    border-color: #5e49ff;
+    
 }
 
 @media screen and (min-width: 992px) {

@@ -1,2 +1,77 @@
 /* Estilos voltados para a página DevStars */ 
 
+.ranking-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px;
+    text-align: center;
+    padding-left: 4px;
+}
+
+.ranking-container img{
+    float: left;
+    padding: 4px;
+    margin-right: 4px;
+}
+
+.ranking-container h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main h2 {
+    padding-left: 4px;
+    margin: 16px;
+}
+
+
+main h3 {
+    font-size: 1.5em;
+    border: #5e49ff;
+    background-color: #5e49ff;
+    border-radius: 20px;
+    width: 200px;
+    height: px;
+    margin: 30px auto 30px;
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 2%;
+    border: 1px solid #5e49ff;
+    border-radius: 26px;   
+    text-align: center;
+}
+
+.table-container th {
+    padding: 4px;
+    text-align: center;
+    border: 1px solid #25cbd3 ;
+    border-radius: 18px;
+    font-size: 0.9em;
+}
+
+
+@media screen and (min-width: 992px) {
+    .table-container {
+        display: column;
+        text-align: center;
+        padding: 1%;
+    }
+
+    main h3 {
+        font-size: 22px;
+
+    }
+
+}
+
+main section div iframe {
+    width: 98%;
+    border-style: none;
+    margin: 10px auto 10px;
+}
