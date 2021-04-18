@@ -26,7 +26,7 @@ main h2 {
 }
 
 
-main h3 {
+.table-container h3 {
     font-size: 1.5em;
     border: #5e49ff;
     background-color: #5e49ff;
